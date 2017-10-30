@@ -7,7 +7,7 @@ Date: 2017/10/27
 # What is Git Workflow
 In the process of development, developer has to manage project coorperating with other developers. Git workflow offers some patterns for project development.
   Git workflow is how developer manages project development and coorperate with other developers.
-  ![Git workflow-1.png](/home/baymax/Program/Git-Workflow/Pictures/git_workflow_1.png "Git workflow")
+  ![Git workflow-1.png](./Pictures/git_workflow_1.png "Git workflow")
   
 
 ### Managing development
@@ -25,4 +25,11 @@ There are many patterns for you to choose.
 * Fork
 
 ## Centralized Workflow
-Centralized management is quite similiar to SVN. We have a central repository. All changes finally will be commited to central repository. 
+Centralized management is quite similiar to SVN. We have a central repository. Every developer clone a copy locally and develop. All changes finally will be commited to central repository. 
+
+# Git brenches
+Brench is quite powerful in Git, and it's a obvious difference from SVN
+
+* master
+* develop
+* release
